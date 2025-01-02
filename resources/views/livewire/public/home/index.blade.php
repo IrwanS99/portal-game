@@ -479,7 +479,7 @@
         }
 
         .logo-left img {
-            max-height: 100px;
+            max-height: 120px;
             /* Atur tinggi logo */
         }
 
