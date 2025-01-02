@@ -22,203 +22,217 @@
                                                             </strong>
                                                         </div>
                                                     </div>
-                                                    <div class="front">
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
+                                                </div>
+                                                <div class="front">
+                                                    <div class="img">
+                                                        <div class="circle">
                                                         </div>
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                                alt="cek khodam">
+                                                        <div class="circle" id="right">
                                                         </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
-                                    <!-- END AI CHAT ROASTING -->
-
-                                    <!-- START CEK KHODAM -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'kodam') }}">
-                                            <div class="card">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Cek Khodam</strong>
-                                                        </div>
-                                                    </div>
-                                                    <div class="front">
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- END CEK KHODAM -->
-
-                                    <!-- START TEBAK LIRIK LAGU -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'nyanyi') }}">
-                                            <div class="card">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Tebak Lirik Lagu</strong>
-                                                        </div>
-                                                    </div>
-                                                    <div class="front">
-
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- END TEBAK LIRIK LAGU -->
                                 </div>
-                                <div class="row clearfix mt-4">
-                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'emoji') }}">
-                                            <div class="card">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Emoji Challenge</strong>
-                                                        </div>
-                                                    </div>
-                                                    <div class="front">
+                                <!-- END AI CHAT ROASTING -->
 
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                <!-- START CEK KHODAM -->
+                                <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                    <a href="{{ route('form', 'kodam') }}">
+                                        <div class="card">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                            alt="cek khodam">
+                                                        <strong>Cek Khodam</strong>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'wish') }}">
-                                            <div class="card">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Wishing For Ogan Ilir</strong>
-                                                        </div>
+                                            <div class="front">
+                                                <div class="img">
+                                                    <div class="circle">
                                                     </div>
-                                                    <div class="front">
-
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="circle" id="right">
+                                                    </div>
+                                                    <div class="circle" id="bottom">
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- START QUIZ -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'kuis') }}">
-                                            <div class="card">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
-                                                                alt="quiz">
-                                                            <strong>Quiz</strong>
-                                                        </div>
-                                                    </div>
-                                                    <div class="front">
 
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
-                                                                alt="quiz">
-                                                        </div>
-                                                    </div>
+                                                <div class="front-content">
+                                                    <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                        alt="cek khodam">
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- END CEK KHODAM -->
+
+                            <!-- START TEBAK LIRIK LAGU -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                <a href="{{ route('form', 'nyanyi') }}">
+                                    <div class="card">
+                                        <div class="content">
+                                            <div class="back">
+                                                <div class="back-content">
+                                                    <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                        alt="cek khodam">
+                                                    <strong>Tebak Lirik Lagu</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="front">
+
+                                            <div class="img">
+                                                <div class="circle">
+                                                </div>
+                                                <div class="circle" id="right">
+                                                </div>
+                                                <div class="circle" id="bottom">
+                                                </div>
+                                            </div>
+
+                                            <div class="front-content">
+                                                <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                    alt="cek khodam">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- END QUIZ -->
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END TEBAK LIRIK LAGU -->
+                    </section>
+                </div>
+                <div class="row clearfix mt-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                        <div class="card" style="cursor-pointer" data-toggle="modal" data-target="#modalDetail">
+                            <div class="content">
+                                <div class="back">
+                                    <div class="back-content">
+                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
+                                        <strong>Emoji Challenge</strong>
+                                    </div>
+                                </div>
+                                <div class="front">
+
+                                    <div class="img">
+                                        <div class="circle">
+                                        </div>
+                                        <div class="circle" id="right">
+                                        </div>
+                                        <div class="circle" id="bottom">
+                                        </div>
+                                    </div>
+
+                                    <div class="front-content">
+                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    <!-- pricing-section end -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                        <a href="{{ route('form', 'wish') }}">
+                            <div class="card">
+                                <div class="content">
+                                    <div class="back">
+                                        <div class="back-content">
+                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                alt="cek khodam">
+                                            <strong>Wishing For Ogan Ilir</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="front">
+
+                                    <div class="img">
+                                        <div class="circle">
+                                        </div>
+                                        <div class="circle" id="right">
+                                        </div>
+                                        <div class="circle" id="bottom">
+                                        </div>
+                                    </div>
+
+                                    <div class="front-content">
+                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}" alt="cek khodam">
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- START QUIZ -->
+                <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                    <a href="{{ route('form', 'kuis') }}">
+                        <div class="card">
+                            <div class="content">
+                                <div class="back">
+                                    <div class="back-content">
+                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
+                                        <strong>Quiz</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front">
+
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+
+                                <div class="front-content">
+                                    <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- END QUIZ -->
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="modalDetailLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalDetailLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+
     <style>
         .card {
             overflow: visible;
-            width: 290px;
-            height: 354px;
+            width: 190px;
+            height: 254px;
         }
 
         .content {
