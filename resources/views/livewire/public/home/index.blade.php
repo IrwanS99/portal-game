@@ -138,7 +138,7 @@
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpg') }}"
                                                             alt="cek khodam">
                                                         <strong>Wishing For Ogan Ilir</strong>
                                                     </div>
