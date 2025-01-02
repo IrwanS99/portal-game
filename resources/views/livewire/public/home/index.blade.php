@@ -31,7 +31,7 @@
                                 <div class="row clearfix">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('rosting')"
                                             style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
@@ -64,7 +64,7 @@
 
                                     <!-- START CEK KHODAM -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('kodam')"
                                             style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
@@ -97,7 +97,7 @@
 
                                     <!-- START TEBAK LIRIK LAGU -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('nyanyi')"
                                             style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
@@ -132,7 +132,7 @@
                                 <div class="row clearfix mt-3">
                                     <!-- START EMOJI CHALLENGE -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" style="cursor: pointer" data-toggle="modal"
+                                        <div class="card mx-auto" style="cursor: pointer" data-toggle="modal" wire:click.prevent="pilihType('emoji')"
                                             data-target="#modalDetail">
                                             <div class="content">
                                                 <div class="back">
@@ -165,7 +165,7 @@
 
                                     <!-- START WISHING FOR OGAN ILIR -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('wish')"
                                             style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
@@ -199,7 +199,7 @@
 
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('kuis')"
                                             style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
@@ -243,11 +243,11 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="modalDetailLabel" aria-hidden="true">
+    <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="modalDetailLabel" aria-hidden="true" wire:ignore.self>
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalDetailLabel">Data Peserta</h5>
+                    <h5 class="modal-title" id="modalDetailLabel">Data Peserta {{ $type ?? ''}}</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -304,7 +304,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                    <button type="button" class="btn btn-primary">Simpan</button>
+                    <button type="button" wire:click='submit' class="btn btn-primary">Simpan</button>
                 </div>
             </div>
         </div>
@@ -552,4 +552,15 @@
             }
         }
     </style>
+
+    @push('js')
+    <script>
+        document.addEventListener('livewire:init', function () {
+            Livewire.on('openNewtab', (url) => {
+                console.log("JALANNNNN");
+                const newWindow = window.open(url, '_blank');
+            });
+        });
+    </script>
+    @endpush
 </div>
