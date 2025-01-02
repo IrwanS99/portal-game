@@ -11,7 +11,7 @@
                                 <div class="row clearfix">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'roasting') }}">
+                                        <a href="{{ route('form', 'rosting') }}">
                                             <div class="card">
                                                 <div class="content">
                                                     <div class="back">
@@ -44,7 +44,7 @@
 
                                     <!-- START CEK KHODAM -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'khodam') }}">
+                                        <a href="{{ route('form', 'kodam') }}">
                                             <div class="card">
                                                 <div class="content">
                                                     <div class="back">
@@ -77,7 +77,7 @@
 
                                     <!-- START TEBAK LIRIK LAGU -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'lagu') }}">
+                                        <a href="{{ route('form', 'nyanyi') }}">
                                             <div class="card">
                                                 <div class="content">
                                                     <div class="back">
@@ -142,7 +142,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'wishing') }}">
+                                        <a href="{{ route('form', 'wish') }}">
                                             <div class="card">
                                                 <div class="content">
                                                     <div class="back">
@@ -174,7 +174,7 @@
                                     </div>
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'quiz') }}">
+                                        <a href="{{ route('form', 'kuis') }}">
                                             <div class="card">
                                                 <div class="content">
                                                     <div class="back">
