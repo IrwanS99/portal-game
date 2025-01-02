@@ -11,14 +11,16 @@
                                 <div class="row clearfix">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card">
-                                            <div class="content">
-                                                <div class="back">
-                                                    <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                            alt="cek khodam">
-                                                        <strong>AI Chatbot Roasting
-                                                        </strong>
+                                        <a href="{{ route('form', 'rosting') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>AI Chatbot Roasting
+                                                            </strong>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="front">
@@ -42,13 +44,15 @@
 
                                     <!-- START CEK KHODAM -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card">
-                                            <div class="content">
-                                                <div class="back">
-                                                    <div class="back-content">
-                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                            alt="cek khodam">
-                                                        <strong>Cek Khodam</strong>
+                                        <a href="{{ route('form', 'kodam') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>Cek Khodam</strong>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="front">
@@ -73,13 +77,15 @@
 
                                     <!-- START TEBAK LIRIK LAGU -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card">
-                                            <div class="content">
-                                                <div class="back">
-                                                    <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                            alt="cek khodam">
-                                                        <strong>Tebak Lirik Lagu</strong>
+                                        <a href="{{ route('form', 'nyanyi') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>Tebak Lirik Lagu</strong>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="front">
@@ -134,13 +140,15 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card">
-                                            <div class="content">
-                                                <div class="back">
-                                                    <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpg') }}"
-                                                            alt="cek khodam">
-                                                        <strong>Wishing For Ogan Ilir</strong>
+                                        <a href="{{ route('form', 'wish') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>Wishing For Ogan Ilir</strong>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="front">
@@ -164,13 +172,15 @@
                                     </div>
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card">
-                                            <div class="content">
-                                                <div class="back">
-                                                    <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
-                                                            alt="quiz">
-                                                        <strong>Quiz</strong>
+                                        <a href="{{ route('form', 'kuis') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
+                                                                alt="quiz">
+                                                            <strong>Quiz</strong>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="front">
