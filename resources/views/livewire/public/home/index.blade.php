@@ -1,8 +1,28 @@
 <div>
     {{-- In work, do what you enjoy. --}}
     <footer class="main-footer">
-        <div class="footer-top" style="background-image: url(assets/images/background/bg.png);">
+        <div class="footer-top" style="background-image: url(assets/images/background/bg-1.png);">
             <div class="auto-container">
+                <div class="footer-content">
+                    <!-- Logo Ogan Ilir & Kominfo -->
+                    <div class="logo-right">
+                        <img src="assets/images/background/logo_oi.png" alt="Logo Ogan Ilir" class="logo">
+                        <img src="assets/images/background/logo_diskominfo_shadow.png" alt="Logo Kominfo" class="logo">
+                    </div>
+
+                    <!-- Center Content -->
+                    <div class="center-content">
+                        <div class="marquee">
+                            <p>Selamat Datang di Stand Diskominfo</p>
+                        </div>
+                    </div>
+
+                    <!-- Logo HUT OI -->
+                    <div class="logo-left">
+                        <img src="assets/images/background/logo_hutoi.png" alt="Logo HUT OI" class="logo">
+                    </div>
+                </div>
+
                 <div class="widget-section">
                     <!-- pricing-section -->
                     <section class="pricing-section sec-pad">
@@ -11,109 +31,114 @@
                                 <div class="row clearfix">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>AI Chatbot Roasting
-                                                            </strong>
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            style="cursor: pointer">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
+                                                            alt="cek khodam">
+                                                        <strong>AI Chatbot Roasting
+                                                        </strong>
+                                                    </div>
+                                                </div>
+
+                                                <div class="front">
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
-
-                                                    <div class="front">
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                     </div>
                                     <!-- END AI CHAT ROASTING -->
 
                                     <!-- START CEK KHODAM -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Cek Khodam</strong>
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            style="cursor: pointer">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                            alt="cek khodam">
+                                                        <strong>Cek Khodam</strong>
+                                                    </div>
+                                                </div>
+
+                                                <div class="front">
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
 
-                                                    <div class="front">
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                     </div>
                                     <!-- END CEK KHODAM -->
 
                                     <!-- START TEBAK LIRIK LAGU -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Tebak Lirik Lagu</strong>
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            style="cursor: pointer">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                            alt="cek khodam">
+                                                        <strong>Tebak Lirik Lagu</strong>
+                                                    </div>
+                                                </div>
+
+                                                <div class="front">
+
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
 
-                                                    <div class="front">
-
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                     </div>
                                     <!-- END TEBAK LIRIK LAGU -->
                                 </div>
                                 <div class="row clearfix mt-3">
                                     <!-- START EMOJI CHALLENGE -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card" style="cursor: pointer" data-toggle="modal" data-target="#modalDetail">
+                                        <div class="card mx-auto" style="cursor: pointer" data-toggle="modal"
+                                            data-target="#modalDetail">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
+                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
+                                                            alt="cek khodam">
                                                         <strong>Emoji Challenge</strong>
                                                     </div>
                                                 </div>
@@ -129,7 +154,8 @@
                                                     </div>
 
                                                     <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
+                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
@@ -139,64 +165,69 @@
 
                                     <!-- START WISHING FOR OGAN ILIR -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Wishing For Ogan Ilir</strong>
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            style="cursor: pointer">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                            alt="cek khodam">
+                                                        <strong>Wishing For Ogan Ilir</strong>
+                                                    </div>
+                                                </div>
+
+                                                <div class="front">
+
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
 
-                                                    <div class="front">
-
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}" alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                     </div>
                                     <!-- END WISHING FOR OGAN ILIR -->
 
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
-                                                            <strong>Quiz</strong>
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            style="cursor: pointer">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
+                                                            alt="quiz">
+                                                        <strong>Quiz</strong>
+                                                    </div>
+                                                </div>
+
+                                                <div class="front">
+
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
 
-                                                    <div class="front">
-
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
+                                                            alt="quiz">
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                     </div>
                                     <!-- END QUIZ -->
                                 </div>
@@ -244,15 +275,13 @@
                     </div>
                     <div class="input-group mb-3">
                         <div class="form-group"></div>
-                        <input type="text" class="form-control" id="name"
-                            {{-- wire:model="name" --}}
+                        <input type="text" class="form-control" id="name" {{-- wire:model="name" --}}
                             placeholder="Masukan nama lengkap..."
                             style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                     </div>
                     <div class="input-group mb-3">
                         <div class="form-group"></div>
-                        <input type="number" class="form-control" id="phone"
-                            {{-- wire:model="phone" --}}
+                        <input type="number" class="form-control" id="phone" {{-- wire:model="phone" --}}
                             placeholder="Masukan nomor HP/Whatsapp..."
                             style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                     </div>
@@ -260,8 +289,7 @@
                         <div class="datepicker date input-group">
                             <input type="text" placeholder="dd/mm/yyyy" class="form-control" id="fecha1"
                                 style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;"
-                                {{-- wire:model="dob" --}}
-                                >
+                                {{-- wire:model="dob" --}}>
                             <div class="input-group-append">
                                 <span class="input-group-text"
                                     style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark; margin-left: 10px;"><i
@@ -271,8 +299,7 @@
                     </div>
                     {{-- <div class="input-group">
                         <button class="btn btn-dark btn-block" style="border-radius: 10px;"
-                            wire:click='submit'
-                            >Simpan</button>
+                            wire:click='submit'>Simpan</button>
                     </div> --}}
                 </div>
                 <div class="modal-footer">
@@ -436,6 +463,62 @@
             filter: blur(15px);
             animation: floating 2600ms infinite linear;
         }
+
+        /* LOGO */
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo-left img,
+        .logo-right img {
+            max-height: 80px;
+            /* Atur tinggi logo */
+        }
+
+        .center-content {
+            text-align: center;
+            flex: 1;
+            /* Mengisi ruang di tengah */
+            padding: 0 20px;
+        }
+
+        /* END LOGO */
+
+        /* MARQUEE */
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            width: 100%;
+            /* Sesuaikan dengan kebutuhan */
+        }
+
+        .marquee p {
+            display: inline-block;
+            animation: scroll 10s linear infinite;
+            white-space: nowrap;
+            margin: 0;
+            font-size: 24px;
+            /* Adjust the font size as needed */
+            font-weight: bold;
+            /* Make the text bold */
+            color: white;
+            /* Change the text color to white */
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
 
         #bottom {
             background-color: #ff8866;
