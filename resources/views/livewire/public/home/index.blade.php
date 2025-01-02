@@ -19,7 +19,7 @@
 
                     <!-- Logo HUT OI -->
                     <div class="logo-left">
-                        <img src="assets/images/background/logo_hutoi.png" alt="Logo HUT OI" class="logo">
+                        <img src="assets/images/background/lanjutkerja21.png" alt="Logo HUT OI" class="logo">
                     </div>
                 </div>
 
@@ -474,7 +474,7 @@
 
         .logo-left img,
         .logo-right img {
-            max-height: 80px;
+            max-height: 90px;
             /* Atur tinggi logo */
         }
 
@@ -501,7 +501,7 @@
             animation: scroll 10s linear infinite;
             white-space: nowrap;
             margin: 0;
-            font-size: 24px;
+            font-size: 26px;
             /* Adjust the font size as needed */
             font-weight: bold;
             /* Make the text bold */
