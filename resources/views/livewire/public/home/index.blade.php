@@ -22,23 +22,23 @@
                                                             </strong>
                                                         </div>
                                                     </div>
-                                                    <div class="front">
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
+                                                </div>
+                                                <div class="front">
+                                                    <div class="img">
+                                                        <div class="circle">
                                                         </div>
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                                alt="cek khodam">
+                                                        <div class="circle" id="right">
                                                         </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                     <!-- END AI CHAT ROASTING -->
 
@@ -54,24 +54,24 @@
                                                             <strong>Cek Khodam</strong>
                                                         </div>
                                                     </div>
-                                                    <div class="front">
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
+                                                </div>
+                                                <div class="front">
+                                                    <div class="img">
+                                                        <div class="circle">
                                                         </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
 
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                     <!-- END CEK KHODAM -->
 
@@ -87,59 +87,57 @@
                                                             <strong>Tebak Lirik Lagu</strong>
                                                         </div>
                                                     </div>
-                                                    <div class="front">
+                                                </div>
+                                                <div class="front">
 
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
+                                                    <div class="img">
+                                                        <div class="circle">
                                                         </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
 
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                     <!-- END TEBAK LIRIK LAGU -->
                                 </div>
-                                <div class="row clearfix mt-4">
+                                <div class="row clearfix mt-3">
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'emoji') }}">
-                                            <div class="card">
-                                                <div class="content">
-                                                    <div class="back">
-                                                        <div class="back-content">
-                                                            <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                                alt="cek khodam">
-                                                            <strong>Emoji Challenge</strong>
+                                        <div class="card">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
+                                                            alt="cek khodam">
+                                                        <strong>Emoji Challenge</strong>
+                                                    </div>
+                                                </div>
+                                                <div class="front">
+
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
-                                                    <div class="front">
 
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <a href="{{ route('form', 'wish') }}">
@@ -152,25 +150,25 @@
                                                             <strong>Wishing For Ogan Ilir</strong>
                                                         </div>
                                                     </div>
-                                                    <div class="front">
+                                                </div>
+                                                <div class="front">
 
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
+                                                    <div class="img">
+                                                        <div class="circle">
                                                         </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
 
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
-                                                                alt="cek khodam">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
@@ -184,25 +182,25 @@
                                                             <strong>Quiz</strong>
                                                         </div>
                                                     </div>
-                                                    <div class="front">
+                                                </div>
+                                                <div class="front">
 
-                                                        <div class="img">
-                                                            <div class="circle">
-                                                            </div>
-                                                            <div class="circle" id="right">
-                                                            </div>
-                                                            <div class="circle" id="bottom">
-                                                            </div>
+                                                    <div class="img">
+                                                        <div class="circle">
                                                         </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
 
-                                                        <div class="front-content">
-                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
-                                                                alt="quiz">
-                                                        </div>
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
+                                                            alt="quiz">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
                                     <!-- END QUIZ -->
                                 </div>
