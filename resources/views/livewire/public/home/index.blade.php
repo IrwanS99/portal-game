@@ -11,8 +11,7 @@
                                 <div class="row clearfix">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'rosting') }}">
-                                            <div class="card">
+                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
                                                 <div class="content">
                                                     <div class="back">
                                                         <div class="back-content">
@@ -22,31 +21,29 @@
                                                             </strong>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="front">
-                                                    <div class="img">
-                                                        <div class="circle">
+
+                                                    <div class="front">
+                                                        <div class="img">
+                                                            <div class="circle">
+                                                            </div>
+                                                            <div class="circle" id="right">
+                                                            </div>
+                                                            <div class="circle" id="bottom">
+                                                            </div>
                                                         </div>
-                                                        <div class="circle" id="right">
+                                                        <div class="front-content">
+                                                            <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
+                                                                alt="cek khodam">
                                                         </div>
-                                                        <div class="circle" id="bottom">
-                                                        </div>
-                                                    </div>
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
                                     </div>
-
-                                <!-- END AI CHAT ROASTING -->
+                                    <!-- END AI CHAT ROASTING -->
 
                                     <!-- START CEK KHODAM -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'kodam') }}">
-                                            <div class="card">
+                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
                                                 <div class="content">
                                                     <div class="back">
                                                         <div class="back-content">
@@ -55,32 +52,30 @@
                                                             <strong>Cek Khodam</strong>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="front">
-                                                    <div class="img">
-                                                        <div class="circle">
-                                                        </div>
-                                                        <div class="circle" id="right">
-                                                        </div>
-                                                        <div class="circle" id="bottom">
-                                                        </div>
-                                                    </div>
 
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                            alt="cek khodam">
+                                                    <div class="front">
+                                                        <div class="img">
+                                                            <div class="circle">
+                                                            </div>
+                                                            <div class="circle" id="right">
+                                                            </div>
+                                                            <div class="circle" id="bottom">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="front-content">
+                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                                alt="cek khodam">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
                                     </div>
-
                                     <!-- END CEK KHODAM -->
 
                                     <!-- START TEBAK LIRIK LAGU -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <a href="{{ route('form', 'nyanyi') }}">
-                                            <div class="card">
+                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
                                                 <div class="content">
                                                     <div class="back">
                                                         <div class="back-content">
@@ -89,6 +84,38 @@
                                                             <strong>Tebak Lirik Lagu</strong>
                                                         </div>
                                                     </div>
+
+                                                    <div class="front">
+
+                                                        <div class="img">
+                                                            <div class="circle">
+                                                            </div>
+                                                            <div class="circle" id="right">
+                                                            </div>
+                                                            <div class="circle" id="bottom">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="front-content">
+                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                                alt="cek khodam">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <!-- END TEBAK LIRIK LAGU -->
+                                </div>
+                                <div class="row clearfix mt-3">
+                                    <!-- START EMOJI CHALLENGE -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                        <div class="card" style="cursor: pointer" data-toggle="modal" data-target="#modalDetail">
+                                            <div class="content">
+                                                <div class="back">
+                                                    <div class="back-content">
+                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
+                                                        <strong>Emoji Challenge</strong>
+                                                    </div>
                                                 </div>
                                                 <div class="front">
 
@@ -102,107 +129,82 @@
                                                     </div>
 
                                                     <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                            alt="cek khodam">
+                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
+                                    <!-- END EMOJI CHALLENGE -->
+
+                                    <!-- START WISHING FOR OGAN ILIR -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>Wishing For Ogan Ilir</strong>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="front">
+
+                                                        <div class="img">
+                                                            <div class="circle">
+                                                            </div>
+                                                            <div class="circle" id="right">
+                                                            </div>
+                                                            <div class="circle" id="bottom">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="front-content">
+                                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}" alt="cek khodam">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <!-- END WISHING FOR OGAN ILIR -->
+
+                                    <!-- START QUIZ -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                            <div class="card" data-toggle="modal" data-target="#modalDetail" style="cursor: pointer">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
+                                                            <strong>Quiz</strong>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="front">
+
+                                                        <div class="img">
+                                                            <div class="circle">
+                                                            </div>
+                                                            <div class="circle" id="right">
+                                                            </div>
+                                                            <div class="circle" id="bottom">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="front-content">
+                                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <!-- END QUIZ -->
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-                <div class="row clearfix mt-3">
-                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                        <div class="card" style="cursor-pointer" data-toggle="modal" data-target="#modalDetail">
-                            <div class="content">
-                                <div class="back">
-                                    <div class="back-content">
-                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
-                                        <strong>Emoji Challenge</strong>
-                                    </div>
-                                </div>
-                                <div class="front">
 
-                                    <div class="img">
-                                        <div class="circle">
-                                        </div>
-                                        <div class="circle" id="right">
-                                        </div>
-                                        <div class="circle" id="bottom">
-                                        </div>
-                                    </div>
-
-                                    <div class="front-content">
-                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}" alt="cek khodam">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                        <a href="{{ route('form', 'wish') }}">
-                            <div class="card">
-                                <div class="content">
-                                    <div class="back">
-                                        <div class="back-content">
-                                            <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
-                                                alt="cek khodam">
-                                            <strong>Wishing For Ogan Ilir</strong>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="front">
-
-                                    <div class="img">
-                                        <div class="circle">
-                                        </div>
-                                        <div class="circle" id="right">
-                                        </div>
-                                        <div class="circle" id="bottom">
-                                        </div>
-                                    </div>
-
-                                    <div class="front-content">
-                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}" alt="cek khodam">
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-
-                    <!-- START QUIZ -->
-                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                        <a href="{{ route('form', 'kuis') }}">
-                            <div class="card">
-                                <div class="content">
-                                    <div class="back">
-                                        <div class="back-content">
-                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
-                                            <strong>Quiz</strong>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="front">
-
-                                    <div class="img">
-                                        <div class="circle">
-                                        </div>
-                                        <div class="circle" id="right">
-                                        </div>
-                                        <div class="circle" id="bottom">
-                                        </div>
-                                    </div>
-
-                                    <div class="front-content">
-                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
             <!-- END QUIZ -->
         </div>
@@ -214,17 +216,68 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalDetailLabel">Modal title</h5>
+                    <h5 class="modal-title" id="modalDetailLabel">Data Peserta</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    {{-- alert --}}
+                    @if (session()->has('success'))
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>{{ session('success') }}</strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    @endif
+                    @if (session()->has('error'))
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>{{ session('error') }}</strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    @endif
+                    <div class="title mb-4 text-center text-dark">
+                        <h5><b>Silahkan mengisi form dibawah</b></h5>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="form-group"></div>
+                        <input type="text" class="form-control" id="name"
+                            {{-- wire:model="name" --}}
+                            placeholder="Masukan nama lengkap..."
+                            style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="form-group"></div>
+                        <input type="number" class="form-control" id="phone"
+                            {{-- wire:model="phone" --}}
+                            placeholder="Masukan nomor HP/Whatsapp..."
+                            style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
+                    </div>
+                    <div class="form-group mb-4">
+                        <div class="datepicker date input-group">
+                            <input type="text" placeholder="dd/mm/yyyy" class="form-control" id="fecha1"
+                                style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;"
+                                {{-- wire:model="dob" --}}
+                                >
+                            <div class="input-group-append">
+                                <span class="input-group-text"
+                                    style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark; margin-left: 10px;"><i
+                                        class="fa fa-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="input-group">
+                        <button class="btn btn-dark btn-block" style="border-radius: 10px;"
+                            wire:click='submit'
+                            >Simpan</button>
+                    </div> --}}
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary">Simpan</button>
                 </div>
             </div>
         </div>
