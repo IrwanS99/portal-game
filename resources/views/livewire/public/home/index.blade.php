@@ -30,11 +30,6 @@
                                                         <div class="circle" id="bottom">
                                                         </div>
                                                     </div>
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
-                                                            alt="cek khodam">
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -59,11 +54,6 @@
                                                         </div>
                                                         <div class="circle" id="bottom">
                                                         </div>
-                                                    </div>
-
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,11 +81,6 @@
                                                         </div>
                                                         <div class="circle" id="bottom">
                                                         </div>
-                                                    </div>
-
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                            alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
@@ -125,10 +110,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                        alt="cek khodam">
-                                                    </div>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -154,10 +136,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
-                                                        alt="cek khodam">
-                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -184,10 +163,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
-                                                            alt="quiz">
-                                                    </div>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
