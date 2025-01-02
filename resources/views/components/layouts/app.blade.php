@@ -9,7 +9,7 @@
     <title>Clasifico - HTML 5 Template Preview</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link
@@ -18,20 +18,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
-
     <!-- Stylesheets -->
-    <link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/jquery.fancybox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/nice-select.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/color.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
     @livewireStyles
 </head>
 
@@ -64,35 +61,21 @@
 
 
     <!-- jequery plugins -->
-    <script src="{{ asset('assets/js/jquery.js') }}"></script>
-    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/owl.js') }}"></script>
-    <script src="{{ asset('assets/js/wow.js') }}"></script>
-    <script src="{{ asset('assets/js/validation.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.fancybox.js') }}"></script>
-    <script src="{{ asset('assets/js/appear.js') }}"></script>
-    <script src="{{ asset('assets/js/scrollbar.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/js/product-filter.js') }}"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/product-filter.js"></script>
 
     <!-- main-js -->
-    <script src="{{ asset('assets/js/script.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
-    </script>
-    <script>
-        $(function () {
-        $('.datepicker').datepicker({
-            language: "id",
-            autoclose: true,
-            format: "dd/mm/yyyy"
-        });
-    });
-    </script>
+    <script src="assets/js/script.js"></script>
     @livewireScripts
-
-    @stack('js')
-
 </body><!-- End of .page_wrapper -->
 
 </html>
