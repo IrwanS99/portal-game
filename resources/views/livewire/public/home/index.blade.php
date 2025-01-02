@@ -40,77 +40,78 @@
                                             </div>
                                         </a>
                                     </div>
-                                </div>
+
                                 <!-- END AI CHAT ROASTING -->
 
-                                <!-- START CEK KHODAM -->
-                                <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                    <a href="{{ route('form', 'kodam') }}">
-                                        <div class="card">
-                                            <div class="content">
-                                                <div class="back">
-                                                    <div class="back-content">
+                                    <!-- START CEK KHODAM -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                        <a href="{{ route('form', 'kodam') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>Cek Khodam</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="front">
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="front-content">
                                                         <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
                                                             alt="cek khodam">
-                                                        <strong>Cek Khodam</strong>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="front">
-                                                <div class="img">
-                                                    <div class="circle">
-                                                    </div>
-                                                    <div class="circle" id="right">
-                                                    </div>
-                                                    <div class="circle" id="bottom">
-                                                    </div>
-                                                </div>
+                                        </a>
+                                    </div>
 
-                                                <div class="front-content">
-                                                    <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
-                                                        alt="cek khodam">
+                                    <!-- END CEK KHODAM -->
+
+                                    <!-- START TEBAK LIRIK LAGU -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                        <a href="{{ route('form', 'nyanyi') }}">
+                                            <div class="card">
+                                                <div class="content">
+                                                    <div class="back">
+                                                        <div class="back-content">
+                                                            <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                                alt="cek khodam">
+                                                            <strong>Tebak Lirik Lagu</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="front">
+
+                                                    <div class="img">
+                                                        <div class="circle">
+                                                        </div>
+                                                        <div class="circle" id="right">
+                                                        </div>
+                                                        <div class="circle" id="bottom">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="front-content">
+                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                            alt="cek khodam">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- END CEK KHODAM -->
-
-                            <!-- START TEBAK LIRIK LAGU -->
-                            <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                <a href="{{ route('form', 'nyanyi') }}">
-                                    <div class="card">
-                                        <div class="content">
-                                            <div class="back">
-                                                <div class="back-content">
-                                                    <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                        alt="cek khodam">
-                                                    <strong>Tebak Lirik Lagu</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="front">
-
-                                            <div class="img">
-                                                <div class="circle">
-                                                </div>
-                                                <div class="circle" id="right">
-                                                </div>
-                                                <div class="circle" id="bottom">
-                                                </div>
-                                            </div>
-
-                                            <div class="front-content">
-                                                <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
-                                                    alt="cek khodam">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
                         </div>
-                        <!-- END TEBAK LIRIK LAGU -->
                     </section>
                 </div>
                 <div class="row clearfix mt-3">
@@ -170,36 +171,37 @@
                                 </div>
                             </div>
                     </div>
-                </div>
-                <!-- START QUIZ -->
-                <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                    <a href="{{ route('form', 'kuis') }}">
-                        <div class="card">
-                            <div class="content">
-                                <div class="back">
-                                    <div class="back-content">
+
+                    <!-- START QUIZ -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                        <a href="{{ route('form', 'kuis') }}">
+                            <div class="card">
+                                <div class="content">
+                                    <div class="back">
+                                        <div class="back-content">
+                                            <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
+                                            <strong>Quiz</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="front">
+
+                                    <div class="img">
+                                        <div class="circle">
+                                        </div>
+                                        <div class="circle" id="right">
+                                        </div>
+                                        <div class="circle" id="bottom">
+                                        </div>
+                                    </div>
+
+                                    <div class="front-content">
                                         <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
-                                        <strong>Quiz</strong>
                                     </div>
                                 </div>
                             </div>
-                            <div class="front">
-
-                                <div class="img">
-                                    <div class="circle">
-                                    </div>
-                                    <div class="circle" id="right">
-                                    </div>
-                                    <div class="circle" id="bottom">
-                                    </div>
-                                </div>
-
-                                <div class="front-content">
-                                    <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}" alt="quiz">
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
             <!-- END QUIZ -->
