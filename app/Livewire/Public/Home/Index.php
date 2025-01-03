@@ -9,6 +9,15 @@ class Index extends Component
 {
     public $name, $phone, $dob, $type;
 
+    public $linkQuiz = [
+        "https://kahoot.it/solo/?quizId=a2c50a43-0c57-4382-988c-75ca3f96d104",
+        "https://kahoot.it/solo/?quizId=b21b7d93-a3ca-4e1f-acae-c01b500400d0",
+        "https://kahoot.it/solo/?quizId=08d4e73d-5e23-43bf-aeac-02b2b88bdee6",
+        "https://kahoot.it/solo/?quizId=0aa745a7-2e22-44b5-8352-37cff002cae5",
+        "https://kahoot.it/solo/?quizId=e6e64fd7-dbd5-4693-98f9-dbb2d5935f2c",
+        "https://kahoot.it/solo/?quizId=59ee0f18-497c-433c-aee2-fe14bc7d77c9",
+    ];
+
     public function render()
     {
         return view('livewire.public.home.index')->layout('components.layouts.app');
@@ -55,7 +64,7 @@ class Index extends Component
             } elseif ($this->type == 'wish') {
                 $url = "http://laravel11.test/?name=" . $this->name . "&phone=" . $this->phone;
             } elseif ($this->type == 'kuis') {
-                $url = "https://kahoot.it/solo/?quizId=e9832160-3e73-48e5-8f0c-e275ff54f54b";
+                $url = $this->linkQuiz[rand(0, 5)];
             }
 
             $this->dispatch('openNewtab', $url);
