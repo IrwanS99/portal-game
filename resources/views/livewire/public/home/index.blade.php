@@ -28,11 +28,16 @@
                                             wire:click.prevent="pilihType('rosting')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
-                                                    <div class="back-content">
+                                                    {{-- <div class="back-content">
                                                         <img src="{{ asset('assets/images/icon_game/ai_chatbot.jpeg') }}"
                                                             alt="cek khodam">
                                                         <strong>AI Chatbot Roasting
                                                         </strong>
+                                                    </div> --}}
+                                                    <div class="image-container">
+                                                        <img src="assets/images/icon_game/ai_chatbot.jpeg"
+                                                            alt="Cek Khodam">
+                                                        <div class="overlay-text">AI Chatbot Roasting</div>
                                                     </div>
                                                 </div>
 
@@ -61,10 +66,16 @@
                                             wire:click.prevent="pilihType('kodam')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
-                                                    <div class="back-content">
+                                                    {{-- <div class="back-content">
                                                         <img src="{{ asset('assets/images/banner/cek-khodam.jpeg') }}"
                                                             alt="cek khodam">
                                                         <strong>Cek Khodam</strong>
+                                                    </div> --}}
+
+                                                    <div class="image-container">
+                                                        <img src="assets/images/banner/cek-khodam.jpeg"
+                                                            alt="Cek Khodam">
+                                                        <div class="overlay-text">Cek Khodam</div>
                                                     </div>
                                                 </div>
 
@@ -94,10 +105,15 @@
                                             wire:click.prevent="pilihType('wish')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
-                                                    <div class="back-content">
+                                                    {{-- <div class="back-content">
                                                         <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
                                                             alt="cek khodam">
                                                         <strong>Harapan Untuk Ogan Ilir</strong>
+                                                    </div> --}}
+                                                    <div class="image-container">
+                                                        <img src="assets/images/icon_game/harapan.jpeg"
+                                                            alt="Cek Khodam">
+                                                        <div class="overlay-text">Harapan Untuk Ogan Ilir</div>
                                                     </div>
                                                 </div>
 
@@ -126,30 +142,29 @@
                                 <div class="row clearfix mt-3">
                                     <!-- START EMOJI CHALLENGE -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" style="cursor: pointer" data-toggle="modal"
-                                            wire:click.prevent="pilihType('emoji')" data-target="#modalDetail">
+                                        <div class="card mx-auto card-with-ribbon" style="cursor: pointer"
+                                            data-toggle="modal" wire:click.prevent="pilihType('emoji')"
+                                            data-target="#modalDetail">
+
+                                            <!-- RIBBON -->
+                                            <div class="ribbon">Hadiah Tersedia</div>
+
                                             <div class="content">
                                                 <div class="back">
-                                                    <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                            alt="cek khodam">
-                                                        <strong>Emoji Challenge</strong>
+                                                    <div class="image-container">
+                                                        <img src="assets/images/icon_game/emoji.jpeg" alt="Cek Khodam">
+                                                        <div class="overlay-text">Emoji Challenge</div>
                                                     </div>
                                                 </div>
                                                 <div class="front">
-
                                                     <div class="img">
-                                                        <div class="circle">
-                                                        </div>
-                                                        <div class="circle" id="right">
-                                                        </div>
-                                                        <div class="circle" id="bottom">
-                                                        </div>
+                                                        <div class="circle"></div>
+                                                        <div class="circle" id="right"></div>
+                                                        <div class="circle" id="bottom"></div>
                                                     </div>
-
                                                     <div class="front-content">
                                                         <img src="{{ asset('assets/images/icon_game/emoji.jpeg') }}"
-                                                            alt="cek khodam">
+                                                            alt="Cek Khodam">
                                                     </div>
                                                 </div>
                                             </div>
@@ -157,16 +172,24 @@
                                     </div>
                                     <!-- END EMOJI CHALLENGE -->
 
-                                      <!-- START TEBAK LIRIK LAGU -->
-                                      <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                    <!-- START TEBAK LIRIK LAGU -->
+                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
                                             wire:click.prevent="pilihType('nyanyi')" style="cursor: pointer">
+
+                                             <!-- RIBBON -->
+                                             <div class="ribbon">Hadiah Tersedia</div>
+
                                             <div class="content">
                                                 <div class="back">
-                                                    <div class="back-content">
+                                                    {{-- <div class="back-content">
                                                         <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
                                                             alt="cek khodam">
                                                         <strong>Tebak Lirik Lagu</strong>
+                                                    </div> --}}
+                                                    <div class="image-container">
+                                                        <img src="assets/images/icon_game/tebak-lagu.jpeg" alt="Cek Khodam">
+                                                        <div class="overlay-text">Tebak Lirik Lagu</div>
                                                     </div>
                                                 </div>
 
@@ -195,12 +218,20 @@
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
                                             wire:click.prevent="pilihType('kuis')" style="cursor: pointer">
+
+                                             <!-- RIBBON -->
+                                             <div class="ribbon">Hadiah Tersedia</div>
+
                                             <div class="content">
                                                 <div class="back">
-                                                    <div class="back-content">
+                                                    {{-- <div class="back-content">
                                                         <img src="{{ asset('assets/images/icon_game/quiz.jpeg') }}"
                                                             alt="quiz">
                                                         <strong>Quiz</strong>
+                                                    </div> --}}
+                                                    <div class="image-container">
+                                                        <img src="assets/images/icon_game/quiz.jpeg" alt="Cek Khodam">
+                                                        <div class="overlay-text">Quiz</div>
                                                     </div>
                                                 </div>
 
@@ -296,10 +327,96 @@
             </div>
         </div>
 
+        <!-- Styles -->
         <style>
+            /* RIBBON STYLING */
+            .card-with-ribbon {
+                position: relative;
+                overflow: hidden;
+                /* Agar ribbon tidak keluar dari card */
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                /* Tambahkan border-radius untuk mempercantik */
+            }
+
+            .ribbon {
+                position: absolute;
+                top: 80px;
+                /* Jarak dari atas */
+                right: -30px;
+                /* Jarak dari kanan, geser ke luar agar miring lebih rapi */
+                background-color: #ff5722;
+                /* Warna ribbon */
+                color: white;
+                /* Warna teks */
+                padding: 5px 15px;
+                font-size: 14px;
+                /* Ukuran font ribbon */
+                font-weight: bold;
+                text-align: center;
+                transform: rotate(45deg);
+                /* Miringkan ke arah berlawanan */
+                transform-origin: 100% 0;
+                width: 140px;
+                /* Lebar ribbon */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                /* Tambahkan bayangan untuk efek */
+                z-index: 10;
+                /* Pastikan ribbon berada di atas konten lainnya */
+            }
+
+            /* RESPONSIVE DESIGN */
+            @media (max-width: 768px) {
+                .ribbon {
+                    font-size: 12px;
+                    width: 120px;
+                }
+            }
+
+            /* TEXT NGAMBANG */
+            .image-container {
+                position: relative;
+                display: inline-block;
+                width: 300px;
+                /* Atur ukuran sesuai kebutuhan */
+                height: 254px;
+                /* Sesuaikan dengan ukuran gambar */
+            }
+
+            .image-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* Agar gambar pas sesuai kotak */
+            }
+
+            .image-container .overlay-text {
+                position: absolute;
+                top: 80%;
+                /* Posisikan di tengah vertikal */
+                left: 50%;
+                /* Posisikan di tengah horizontal */
+                transform: translate(-50%, -50%);
+                /* Koreksi agar benar-benar di tengah */
+                color: white;
+                /* Warna teks */
+                background-color: rgba(0, 0, 0, 0.5);
+                /* Background semi transparan */
+                padding: 10px 20px;
+                /* Tambahkan padding */
+                border-radius: 5px;
+                /* Opsional: tambahkan sudut melengkung */
+                font-weight: bold;
+                /* Teks tebal */
+                text-align: center;
+                /* Pusatkan teks */
+            }
+
+            /*END TEXT NGAMBANG */
+
             .card {
                 overflow: visible;
-                width: 190px;
+                width: 300px;
                 height: 254px;
             }
 
@@ -552,6 +669,7 @@
                 }
             }
         </style>
+        <!-- End Styles -->
 
         @push('js')
         <script>

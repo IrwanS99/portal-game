@@ -1,7 +1,7 @@
 
 .card {
     overflow: visible;
-    width: 190px;
+    width: 300px !important;
     height: 254px;
 }
 
