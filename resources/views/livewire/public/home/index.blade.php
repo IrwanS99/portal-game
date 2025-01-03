@@ -1,7 +1,7 @@
 <div>
     {{-- In work, do what you enjoy. --}}
     <footer class="main-footer">
-        <div class="footer-top" style="background-image: url(assets/images/background/bg-2.gif);">
+        <div class="footer-top" style="background-image: url(assets/images/background/bg-3.png);">
             <div class="auto-container">
                 <div class="footer-content">
                     <!-- Logo Ogan Ilir & Kominfo -->
@@ -21,7 +21,7 @@
                     <section class="pricing-section sec-pad">
                         <div class="container">
                             <div class="col-12">
-                                <div class="row clearfix">
+                                <div class="row clearfix" style="margin-right:65px; margin-left:65px;">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
@@ -139,7 +139,7 @@
                                     <!-- END HARAPAN FOR OGAN ILIR -->
 
                                 </div>
-                                <div class="row clearfix mt-3">
+                                <div class="row clearfix mt-3" style="margin-right:65px; margin-left:65px;">
                                     <!-- START EMOJI CHALLENGE -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <div class="card mx-auto card-with-ribbon" style="cursor: pointer"
@@ -591,7 +591,7 @@
             }
 
             .logo-left img {
-                max-height: 120px;
+                max-height: 200px;
                 /* Atur tinggi logo */
             }
 

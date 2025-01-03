@@ -100,7 +100,7 @@ body {
 
 .auto-container{
   position:static;
-  max-width:1200px;
+  max-width:1560px;
   padding:0px 15px;
   margin:0 auto;
 }
@@ -338,7 +338,7 @@ img {
 
 .sec-pad{
   /* padding: 114px 0px 120px 0px; */
-  padding: 30px 0px 0px 0px;;
+  padding: 85px 0 0 0;
 }
 
 .sec-pad-2{
