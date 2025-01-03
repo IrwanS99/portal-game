@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="form-group"></div>
-                                    <input type="text" class="form-control" id="name" wire:model="name"
+                                    <input type="text" class="form-control" id="name" wire:model="name" autocomplete="off"
                                         placeholder="Masukan nama lengkap..."
                                         style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                                 </div>

@@ -45,17 +45,17 @@ class Index extends Component
 
             $url = "";
             if ($this->type == 'kodam') {
-                $url = "http://kodam.test";
+                $url = "https://relanda.my.id";
             } elseif ($this->type == 'nyanyi') {
-                $url = "http://nyanyi.test";
+                $url = "http://tebak_lirik.test";
             } elseif ($this->type == 'emoji') {
                 $url = "http://emoji.test";
             } elseif ($this->type == 'rosting') {
-                $url = "http://rosting.test";
+                $url = "http://192.168.100.194:8001";
             } elseif ($this->type == 'wish') {
-                $url = "http://wish.test";
+                $url = "http://laravel11.test";
             } elseif ($this->type == 'kuis') {
-                $url = "http://kuis.test";
+                $url = "https://kahoot.it/solo/?quizId=e9832160-3e73-48e5-8f0c-e275ff54f54b";
             }
 
             $this->dispatch('openNewtab', $url);
@@ -65,4 +65,6 @@ class Index extends Component
             session()->flash('error', $th->getMessage());
         }
     }
+
+
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <title>Clasifico - HTML 5 Template Preview</title>
+    <title>HUT Ogan Ilir 21</title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
@@ -32,6 +32,7 @@
     <link href="{{ asset('assets/css/color.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
+
     @livewireStyles
 </head>
 
@@ -64,6 +65,7 @@
 
 
     <!-- jequery plugins -->
+    <script src="{{ asset('assets/js/webcam.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <script src="{{ asset('assets/js/popper.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
@@ -79,15 +81,6 @@
     <!-- main-js -->
     <script src="{{ asset('assets/js/script.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
-    </script>
-    <script>
-        $(function () {
-        $('.datepicker').datepicker({
-            language: "id",
-            autoclose: true,
-            format: "dd/mm/yyyy"
-        });
-    });
     </script>
     @livewireScripts
 
