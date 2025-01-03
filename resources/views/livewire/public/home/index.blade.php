@@ -467,6 +467,15 @@
         }
 
         /* LOGO */
+        .logo {
+            filter: drop-shadow(0px 0px 5px white);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .logo:hover {
+            filter: drop-shadow(0px 0px 10px white);
+        }
+
         .footer-content {
             display: flex;
             justify-content: space-between;
