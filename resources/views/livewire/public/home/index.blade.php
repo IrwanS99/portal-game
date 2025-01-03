@@ -10,14 +10,6 @@
                         <img src="assets/images/background/logo_diskominfo_shadow.png" alt="Logo Kominfo" class="logo">
                     </div>
 
-                    {{--
-                    <!-- Center Content -->
-                    <div class="center-content">
-                        <div class="marquee">
-                            <p>Selamat Datang di Stand Diskominfo</p>
-                        </div>
-                    </div> --}}
-
                     <!-- Logo HUT OI -->
                     <div class="logo-left">
                         <img src="assets/images/background/lanjutkerja21.png" alt="Logo HUT OI" class="logo">
