@@ -10,12 +10,13 @@
                         <img src="assets/images/background/logo_diskominfo_shadow.png" alt="Logo Kominfo" class="logo">
                     </div>
 
-                        {{-- <!-- Center Content -->
-                        <div class="center-content">
-                            <div class="marquee">
-                                <p>Selamat Datang di Stand Diskominfo</p>
-                            </div>
-                        </div> --}}
+                    {{--
+                    <!-- Center Content -->
+                    <div class="center-content">
+                        <div class="marquee">
+                            <p>Selamat Datang di Stand Diskominfo</p>
+                        </div>
+                    </div> --}}
 
                     <!-- Logo HUT OI -->
                     <div class="logo-left">
@@ -31,8 +32,8 @@
                                 <div class="row clearfix">
                                     <!-- AI CHAT ROASTING -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('rosting')"
-                                            style="cursor: pointer">
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            wire:click.prevent="pilihType('rosting')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
@@ -64,8 +65,8 @@
 
                                     <!-- START CEK KHODAM -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('kodam')"
-                                            style="cursor: pointer">
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            wire:click.prevent="pilihType('kodam')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
@@ -97,8 +98,8 @@
 
                                     <!-- START TEBAK LIRIK LAGU -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('nyanyi')"
-                                            style="cursor: pointer">
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            wire:click.prevent="pilihType('nyanyi')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
@@ -132,8 +133,8 @@
                                 <div class="row clearfix mt-3">
                                     <!-- START EMOJI CHALLENGE -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" style="cursor: pointer" data-toggle="modal" wire:click.prevent="pilihType('emoji')"
-                                            data-target="#modalDetail">
+                                        <div class="card mx-auto" style="cursor: pointer" data-toggle="modal"
+                                            wire:click.prevent="pilihType('emoji')" data-target="#modalDetail">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
@@ -165,8 +166,8 @@
 
                                     <!-- START WISHING FOR OGAN ILIR -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('wish')"
-                                            style="cursor: pointer">
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            wire:click.prevent="pilihType('wish')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
@@ -199,8 +200,8 @@
 
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail" wire:click.prevent="pilihType('kuis')"
-                                            style="cursor: pointer">
+                                        <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
+                                            wire:click.prevent="pilihType('kuis')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
@@ -243,7 +244,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="modalDetailLabel" aria-hidden="true" wire:ignore.self>
+    <div class="modal fade" id="modalDetail" tabindex="-1" aria-labelledby="modalDetailLabel" aria-hidden="true"
+        wire:ignore.self>
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -275,13 +277,13 @@
                     </div>
                     <div class="input-group mb-3">
                         <div class="form-group"></div>
-                        <input type="text" class="form-control" id="name" {{-- wire:model="name" --}}
+                        <input type="text" class="form-control" id="name" wire:model="name"
                             placeholder="Masukan nama lengkap..."
                             style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                     </div>
                     <div class="input-group mb-3">
                         <div class="form-group"></div>
-                        <input type="number" class="form-control" id="phone" {{-- wire:model="phone" --}}
+                        <input type="number" class="form-control" id="phone" wire:model="phone"
                             placeholder="Masukan nomor HP/Whatsapp..."
                             style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                     </div>
@@ -289,7 +291,7 @@
                         <div class="datepicker date input-group">
                             <input type="text" placeholder="dd/mm/yyyy" class="form-control" id="fecha1"
                                 style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;"
-                                {{-- wire:model="dob" --}}>
+                                wire:model="dob">
                             <div class="input-group-append">
                                 <span class="input-group-text"
                                     style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark; margin-left: 10px;"><i
