@@ -277,26 +277,21 @@
                     </div>
                     <div class="input-group mb-3">
                         <div class="form-group"></div>
-                        <input type="text" class="form-control" id="name" wire:model="name"
+                        <input type="text" class="form-control" id="name" wire:model="name" autocomplete="off"
                             placeholder="Masukan nama lengkap..."
                             style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                     </div>
                     <div class="input-group mb-3">
                         <div class="form-group"></div>
-                        <input type="number" class="form-control" id="phone" wire:model="phone"
+                        <input type="number" class="form-control" id="phone" wire:model="phone" autocomplete="off"
                             placeholder="Masukan nomor HP/Whatsapp..."
                             style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;">
                     </div>
                     <div class="form-group mb-4">
-                        <div class="datepicker date input-group">
-                            <input type="text" placeholder="dd/mm/yyyy" class="form-control" id="fecha1"
+                        <div class=" date input-group">
+                            <input type="date" placeholder="dd/mm/yyyy" class="form-control" id="fecha1"
                                 style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark;"
                                 wire:model="dob">
-                            <div class="input-group-append">
-                                <span class="input-group-text"
-                                    style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.3); color: dark; margin-left: 10px;"><i
-                                        class="fa fa-calendar"></i></span>
-                            </div>
                         </div>
                     </div>
                     {{-- <div class="input-group">
@@ -577,6 +572,15 @@
                 const newWindow = window.open(url, '_blank');
             });
         });
+    </script>
+     <script>
+        $(function () {
+        $('.datepicker').datepicker({
+            language: "id",
+            autoclose: true,
+            format: "dd/mm/yyyy"
+        });
+    });
     </script>
     @endpush
 </div>
