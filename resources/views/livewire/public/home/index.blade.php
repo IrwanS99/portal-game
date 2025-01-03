@@ -1,7 +1,7 @@
 <div>
     {{-- In work, do what you enjoy. --}}
     <footer class="main-footer">
-        <div class="footer-top" style="background-image: url(assets/images/background/bg-1.png);">
+        <div class="footer-top" style="background-image: url(assets/images/background/bg-2.gif);">
             <div class="auto-container">
                 <div class="footer-content">
                     <!-- Logo Ogan Ilir & Kominfo -->
