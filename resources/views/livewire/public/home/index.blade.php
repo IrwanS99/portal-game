@@ -88,16 +88,16 @@
                                     </div>
                                     <!-- END CEK KHODAM -->
 
-                                    <!-- START TEBAK LIRIK LAGU -->
+                                    <!-- START HARAPAN FOR OGAN ILIR -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
-                                            wire:click.prevent="pilihType('nyanyi')" style="cursor: pointer">
+                                            wire:click.prevent="pilihType('wish')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
                                                             alt="cek khodam">
-                                                        <strong>Tebak Lirik Lagu</strong>
+                                                        <strong>Harapan Untuk Ogan Ilir</strong>
                                                     </div>
                                                 </div>
 
@@ -113,14 +113,15 @@
                                                     </div>
 
                                                     <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
                                                             alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- END TEBAK LIRIK LAGU -->
+                                    <!-- END HARAPAN FOR OGAN ILIR -->
+
                                 </div>
                                 <div class="row clearfix mt-3">
                                     <!-- START EMOJI CHALLENGE -->
@@ -156,16 +157,16 @@
                                     </div>
                                     <!-- END EMOJI CHALLENGE -->
 
-                                    <!-- START WISHING FOR OGAN ILIR -->
-                                    <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                                      <!-- START TEBAK LIRIK LAGU -->
+                                      <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                                         <div class="card mx-auto" data-toggle="modal" data-target="#modalDetail"
-                                            wire:click.prevent="pilihType('wish')" style="cursor: pointer">
+                                            wire:click.prevent="pilihType('nyanyi')" style="cursor: pointer">
                                             <div class="content">
                                                 <div class="back">
                                                     <div class="back-content">
-                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
                                                             alt="cek khodam">
-                                                        <strong>Wishing For Ogan Ilir</strong>
+                                                        <strong>Tebak Lirik Lagu</strong>
                                                     </div>
                                                 </div>
 
@@ -181,14 +182,14 @@
                                                     </div>
 
                                                     <div class="front-content">
-                                                        <img src="{{ asset('assets/images/icon_game/harapan.jpeg') }}"
+                                                        <img src="{{ asset('assets/images/icon_game/tebak-lagu.jpeg') }}"
                                                             alt="cek khodam">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- END WISHING FOR OGAN ILIR -->
+                                    <!-- END TEBAK LIRIK LAGU -->
 
                                     <!-- START QUIZ -->
                                     <div class="col-lg-4 col-md-6 col-sm-12 pricing-block">
